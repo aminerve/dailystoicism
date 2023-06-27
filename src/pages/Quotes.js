@@ -28,7 +28,7 @@ export default function Quotes() {
     }
   return (
     <div>
-        <button >Get New Quote:</button>
+        <button onClick={fetchNewQuote}>Get New Quote:</button>
         <h1></h1>
     </div>
   )
